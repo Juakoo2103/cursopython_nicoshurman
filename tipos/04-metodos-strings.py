@@ -31,3 +31,6 @@ print(animal.replace("nCH", "j"))
 
 # Busca si el string contiene los caracteres especifidados en el primer argumento
 print("nCH" in animal)
+
+# Busca si el string NO contiene los caracteres especifidados en el primer argumento
+print("nCH" not in animal)
