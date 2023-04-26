@@ -3,7 +3,7 @@
 # or una de las condiciones es true
 # not negar el resultado de la operacion
 
-gas = True  # Si cambiamos a false entonces no se imprime
+gas = False  # Si cambiamos a false entonces no se imprime
 encendido = True
 edad = 18
 
@@ -15,5 +15,7 @@ edad = 18
 #     print("puedes avanzar")
 
 
-if gas and encendido and edad > 17:
+if not gas and encendido and edad > 17:
     print("puedes avanzar")
+
+# Operaciones de corto circuito es cuando la operacion de la izquierda corta toda la condicion
