@@ -13,7 +13,7 @@ mascotas.append("Chanchito triste")
 mascotas.remove("Pulga")  # Elemento a elimiinar
 mascotas.pop(1)
 del mascotas[0]
-mascotas.clear()  # se elimna todo el listado
+# mascotas.clear()  # se elimna todo el listado
 
 
 print(mascotas)
