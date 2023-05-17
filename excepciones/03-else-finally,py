@@ -1,0 +1,10 @@
+try:
+    n1 = int(input("ingresa primer numero: "))
+except Exception as e:
+    print("ocurrio un error")
+# Se ocupa para ejecutar una siguiente porcion de codigo sin salir del try catch
+else:
+    print("No ocurrio ningun error")
+# se ejecuta sin desmedro de si esta bien o mal la ejecucion
+finally:
+    print("se ejecuta siempre")
