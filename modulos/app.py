@@ -1,3 +1,4 @@
-from usuarios.acciones import guardar, pagar_impuestos
+from usuarios.acciones.utilidades import guardar
 
-guardar()
+
+print(__name__)
