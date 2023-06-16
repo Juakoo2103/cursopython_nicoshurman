@@ -20,5 +20,5 @@ from io import open
 # print(texto)
 
 with open('archivos/hola-mundo.txt', 'r') as archivo:
-    texto = archivo.read()
-    print(texto)
+        texto = archivo.read()
+        print(texto)
